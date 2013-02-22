@@ -5,7 +5,7 @@ Library for sending free sms messages.
 
 **Uses swiftmailer to send emails to carrier addresses (e.g., number@tmomail.net)**
 
-== Usage
+## Usage
 
 ```php
 require_once "KSms.php";
