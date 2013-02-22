@@ -1,9 +1,9 @@
 Ksms
 ====
 
-Library for sending free sms messages (using carrier email addresses). 
+Library for sending free sms messages. 
 
-**Uses swiftmailer for sending emails.**
+**Uses swiftmailer to send emails to carrier addresses (e.g., number@tmomail.net)**
 
 == Usage
 
