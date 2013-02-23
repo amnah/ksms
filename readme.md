@@ -1,7 +1,7 @@
-Ksms
+KSms
 ====
 
-Library for sending free sms messages. 
+Library for sending free sms messages
 
 **Uses swiftmailer to send emails to carrier addresses (e.g., number@tmomail.net)**
 
@@ -30,5 +30,5 @@ $carrier = "T-Mobile"; // see valid carriers in KSms::getCarriers()
 $number = "0123456789";
 $subject = "Subject";
 $message = "Message";
-$ksms->send($carrier, $number, "subject1", "message1");
+$ksms->send($carrier, $number, $subject, $message);
 ```
